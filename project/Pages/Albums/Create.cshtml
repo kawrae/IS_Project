@@ -1,0 +1,65 @@
+@page
+@model project.Pages.Albums.CreateModel
+@{
+    ViewData["Title"] = "Create Album";
+}
+
+<h2>Create Album</h2>
+
+<form method="post">
+    <div class="form-group mb-3">
+        <label asp-for="Album.Title" class="form-label">Album Title</label>
+        <input asp-for="Album.Title" class="form-control" />
+        <span asp-validation-for="Album.Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Album.ArtistId" class="form-label">Select Existing Artist</label>
+        <select asp-for="Album.ArtistId" class="form-select" asp-items="Model.ArtistList">
+            <option value="">-- Select Artist --</option>
+        </select>
+        <span asp-validation-for="Album.ArtistId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label class="form-label">Or Add a New Artist</label>
+        <input asp-for="NewArtistName" class="form-control" placeholder="New artist name (optional)" />
+    </div>
+
+    <div class="form-group mb-3">
+        <label class="form-label">Tracks</label>
+        <div id="trackContainer">
+            @for (int i = 0; i < Model.TrackNames.Count; i++)
+            {
+                <div class="input-group mb-2">
+                    <input type="text" name="TrackNames[@i]" class="form-control" placeholder="Track Name" value="@Model.TrackNames[i]" />
+                    <input type="number" step="0.01" name="TrackPrices[@i]" class="form-control" placeholder="Price" value="@Model.TrackPrices[i]" />
+                </div>
+            }
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-success">Create Album</button>
+    <button type="button" class="btn btn-outline-primary" onclick="addTrack()">Add Track</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        function addTrack() {
+            const container = document.getElementById("trackContainer");
+            const index = container.children.length;
+
+            const group = document.createElement("div");
+            group.className = "input-group mb-2";
+
+            group.innerHTML = `
+                <input type="text" name="TrackNames[${index}]" class="form-control" placeholder="Track Name" />
+                <input type="number" step="0.01" name="TrackPrices[${index}]" class="form-control" placeholder="Price" />
+            `;
+
+            container.appendChild(group);
+        }
+    </script>
+}

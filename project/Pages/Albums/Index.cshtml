@@ -1,0 +1,55 @@
+@page
+@model project.Pages.Albums.IndexModel
+@{
+    ViewData["Title"] = "Albums";
+}
+
+<h2>Albums</h2>
+
+<form method="get" class="mb-3">
+    <input type="text" name="SearchTerm" value="@Model.SearchTerm" class="form-control"
+        placeholder="Search by album or artist..." />
+</form>
+
+<a class="btn btn-success mb-3" href="/Albums/Create">Add New Album</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                <a asp-route-SortField="Title" asp-route-Descending="@(Model.SortField == "Title" && !Model.Descending)"
+                    style="color: black;">
+                    Title
+                </a>
+
+            </th>
+            <th>
+                <a asp-route-SortField="Artist"
+                    asp-route-Descending="@(Model.SortField == "Artist" && !Model.Descending)" style="color: black;">
+                    Artist
+                </a>
+            </th>
+            <th>
+                <a asp-route-SortField="Tracks"
+                    asp-route-Descending="@(Model.SortField == "Tracks" && !Model.Descending)" style="color: black;">
+                    Tracks
+                </a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var album in Model.Albums)
+        {
+            <tr>
+                <td>@album.Title</td>
+                <td>@album.Artist?.Name</td>
+                <td>@album.Tracks.Count</td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@album.AlbumId">Edit</a> |
+                    <a asp-page="Delete" asp-route-id="@album.AlbumId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
