@@ -1,24 +1,67 @@
-# Composer files
-composer.phar
-vendor/
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Local configs
-config/autoload/*.local.php
+# Build results
+bin/
+obj/
+out/
+Debug/
+Release/
 
-# Binary gettext files
-*.mo
+# ASP.NET Core
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json.user
 
-# Data
-data/logs/
-data/cache/
-data/sessions/
-data/tmp/
-temp/
+# EF Core Migrations temp
+*.sqlite-journal
+*.db-shm
+*.db-wal
 
-#Doctrine 2
-data/DoctrineORMModule/Proxy/
-data/DoctrineORMModule/cache/
+# SQLite DB (optional)
+chinook.db
 
-# Legacy ZF1
-demos/
-extras/documentation
+# IDE & system
+*.DS_Store
+*.swp
+*.bak
+*.tmp
+*.log
+Thumbs.db
+
+# Rider
+.idea/
+
+# Node modules (if ever added)
+node_modules/
+
+# NPM logs
+npm-debug.log*
+
+# Git lock files
+.git/index.lock
+.git/COMMIT_EDITMSG
+
+# Publish output
+wwwroot/dist/
+wwwroot/node_modules/
+
+# Secrets (if any)
+secrets.json
+
+# Rider / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# Optional OS files
+Thumbs.db
+.DS_Store
+ehthumbs.db
+desktop.ini
+
