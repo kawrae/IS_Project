@@ -3204,11 +3204,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\corey\\OneDrive - University of the West of Scotland\\UWS\\Year 3\\Term 2\\Internet Scripting\\CourseworkTwo\\project\\project.csproj",
+      "projectUniqueName": "C:\\Users\\corey\\Downloads\\CourseworkTwo\\project\\project.csproj",
       "projectName": "project",
-      "projectPath": "C:\\Users\\corey\\OneDrive - University of the West of Scotland\\UWS\\Year 3\\Term 2\\Internet Scripting\\CourseworkTwo\\project\\project.csproj",
+      "projectPath": "C:\\Users\\corey\\Downloads\\CourseworkTwo\\project\\project.csproj",
       "packagesPath": "C:\\Users\\corey\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\corey\\OneDrive - University of the West of Scotland\\UWS\\Year 3\\Term 2\\Internet Scripting\\CourseworkTwo\\project\\obj\\",
+      "outputPath": "C:\\Users\\corey\\Downloads\\CourseworkTwo\\project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\corey\\AppData\\Roaming\\NuGet\\NuGet.Config"

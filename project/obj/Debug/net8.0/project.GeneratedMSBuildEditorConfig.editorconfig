@@ -17,59 +17,59 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = project
 build_property.RootNamespace = project
-build_property.ProjectDir = C:\Users\corey\OneDrive - University of the West of Scotland\UWS\Year 3\Term 2\Internet Scripting\CourseworkTwo\project\
+build_property.ProjectDir = C:\Users\corey\Downloads\CourseworkTwo\project\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\corey\OneDrive - University of the West of Scotland\UWS\Year 3\Term 2\Internet Scripting\CourseworkTwo\project
+build_property.MSBuildProjectDirectory = C:\Users\corey\Downloads\CourseworkTwo\project
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/corey/OneDrive - University of the West of Scotland/UWS/Year 3/Term 2/Internet Scripting/CourseworkTwo/project/Pages/Albums/Create.cshtml]
+[C:/Users/corey/Downloads/CourseworkTwo/project/Pages/Albums/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxidW1zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/corey/OneDrive - University of the West of Scotland/UWS/Year 3/Term 2/Internet Scripting/CourseworkTwo/project/Pages/Albums/Delete.cshtml]
+[C:/Users/corey/Downloads/CourseworkTwo/project/Pages/Albums/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxidW1zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/corey/OneDrive - University of the West of Scotland/UWS/Year 3/Term 2/Internet Scripting/CourseworkTwo/project/Pages/Albums/Edit.cshtml]
+[C:/Users/corey/Downloads/CourseworkTwo/project/Pages/Albums/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxidW1zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/corey/OneDrive - University of the West of Scotland/UWS/Year 3/Term 2/Internet Scripting/CourseworkTwo/project/Pages/Albums/Index.cshtml]
+[C:/Users/corey/Downloads/CourseworkTwo/project/Pages/Albums/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxidW1zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/corey/OneDrive - University of the West of Scotland/UWS/Year 3/Term 2/Internet Scripting/CourseworkTwo/project/Pages/Error.cshtml]
+[C:/Users/corey/Downloads/CourseworkTwo/project/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/corey/OneDrive - University of the West of Scotland/UWS/Year 3/Term 2/Internet Scripting/CourseworkTwo/project/Pages/Index.cshtml]
+[C:/Users/corey/Downloads/CourseworkTwo/project/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/corey/OneDrive - University of the West of Scotland/UWS/Year 3/Term 2/Internet Scripting/CourseworkTwo/project/Pages/Privacy.cshtml]
+[C:/Users/corey/Downloads/CourseworkTwo/project/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/corey/OneDrive - University of the West of Scotland/UWS/Year 3/Term 2/Internet Scripting/CourseworkTwo/project/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/corey/Downloads/CourseworkTwo/project/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/corey/OneDrive - University of the West of Scotland/UWS/Year 3/Term 2/Internet Scripting/CourseworkTwo/project/Pages/Test.cshtml]
+[C:/Users/corey/Downloads/CourseworkTwo/project/Pages/Test.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/corey/OneDrive - University of the West of Scotland/UWS/Year 3/Term 2/Internet Scripting/CourseworkTwo/project/Pages/_ViewImports.cshtml]
+[C:/Users/corey/Downloads/CourseworkTwo/project/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/corey/OneDrive - University of the West of Scotland/UWS/Year 3/Term 2/Internet Scripting/CourseworkTwo/project/Pages/_ViewStart.cshtml]
+[C:/Users/corey/Downloads/CourseworkTwo/project/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/corey/OneDrive - University of the West of Scotland/UWS/Year 3/Term 2/Internet Scripting/CourseworkTwo/project/Pages/Shared/_Layout.cshtml]
+[C:/Users/corey/Downloads/CourseworkTwo/project/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-aorwzmvr3g
